@@ -1,0 +1,30 @@
+#
+what
+$
+Array is a collection of data with same type.
+
+$type
+Basically, array can be declared as any data type.
+
+#
+how
+$create,declare
+To create an array, you need to use the syntax as below:
+	int num[10];
+Note: 'int' specifies what kind of data type that the array stores, 'num' indicates the name of array, '10' means the size of array
+
+$length,size
+Using sizeof(array)/sizeof(data type of array) 
+Example:
+arr = int[2] 
+length = sizeof(arr)/sizeof(int)
+
+$use,access
+You can access individual element of the array by using the array name and index in the same way you would use any other variable
+Example:
+num[2] = 42
+
+#
+why
+$use
+Improve efficiency when manipulating multiple data with same type.
