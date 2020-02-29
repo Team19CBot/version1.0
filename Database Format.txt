@@ -1,0 +1,27 @@
+1. 每个 主题 创建以 主题 为名的 文件夹， 如array
+2. 在文件夹里创建 first_level.txt，储存疑问词关键字， 如what，how，每个 keyword 一行， 如含义相同的 关键字 放同一行，并且用 空格 隔开
+3. 在文件夹里创建 second_level.txt，每个 keyword 一行， 如含义相同的 关键字 放同一行，并且用 空格 隔开
+4. 在文件夹里创建 solution.txt， 每个solution 目前有一个或二个对应的 关键字，按照以下格式，若只有第一层关键字，第二层关键字直接换行，反之亦然
+#
+第一层关键字
+##
+第二层关键字
+具体答案
+
+如果多个问题的 第一层关键字 相同，就合并为一起
+比如 what is array 和 what is type of array
+#
+what
+##
+
+array is....
+##
+type
+int, double....
+
+如果某个问题存在相同含义的关键字，如 declare 和 create，只需要写一个即可:
+#
+how
+##
+create
+To create a array....
